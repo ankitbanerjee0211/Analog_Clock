@@ -10,11 +10,11 @@ setInterval(() => {
     minute.style.transform = `rotate(${mRotation}deg)`;
     second.style.transform = `rotate(${sRotation}deg)`;
     if (h%2 == 0) {
-        document.getElementById("clockContainer").style.background = "url('/img/clock3.png') no-repeat";
+        document.getElementById("clockContainer").style.background = "url('Analog_Clock/img/clock3.png') no-repeat";
         document.getElementById("clockContainer").style.backgroundSize = "100%";
     }
     else {
-        document.getElementById("clockContainer").style.background = "url('/img/clock1.png') no-repeat";
+        document.getElementById("clockContainer").style.background = "url('Analog_Clock/img/clock1.png') no-repeat";
         document.getElementById("clockContainer").style.backgroundSize = "100%";
     }
 }, 1000);
