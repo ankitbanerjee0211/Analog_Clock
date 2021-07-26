@@ -11,6 +11,13 @@ body{
     filter: invert(1);
 }
 
+@media only screen and (max-width: 600px) {
+    #clockContainer{
+        height: 75vw;
+        width: 75vw;
+    }
+  }
+
 #hour, #minute, #second{
     position: absolute;
     background: black;
